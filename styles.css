@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh ;
+    width: 100vw ;
+}
+
+.sidebar {
+    display: grid;
+    grid-row: 1 / 6;
+    background-color: blue;
+}
+    
+.content {
+    display: grid;
+    grid-row: 2 / 6;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projects {
+    display: grid;
+    grid-template-rows: 14fr 52fr 52fr 52fr 14fr;
+}
+
+.your-projects {
+    background-color: lightcoral;
+}
+
+.project-content {
+    background-color: peachpuff;
+}
+
+.right-side {
+    display: grid;
+    grid-template-rows: 14fr 71fr 14fr 71fr 14fr;
+}
+
+.announcements {
+    background-color: lightcoral;
+}
+
+.ann-content {
+    background-color: brown;
+}
+
+.header {
+    display: grid;
+    grid-column: 2 / 3;
+}
+
+.header-top  {
+    background-color: lightgreen;
+}
+
+.header-bottom {
+    background-color: darkgreen;
+}
