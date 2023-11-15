@@ -13,7 +13,22 @@
 .sidebar {
     display: grid;
     grid-row: 1 / 6;
+    grid-template-rows: 1fr 5fr 5fr;
+}
+
+.top {
+    background-color: aqua;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottoms {
     background-color: blue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
     
 .content {
@@ -29,6 +44,8 @@
 
 .your-projects {
     background-color: lightcoral;
+    display: grid;  
+    align-items: center;
 }
 
 .project-content {
@@ -42,6 +59,8 @@
 
 .announcements {
     background-color: lightcoral;
+    display: grid;  
+    align-items: center;
 }
 
 .ann-content {
