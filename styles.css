@@ -49,7 +49,16 @@
 }
 
 .project-content {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
     background-color: peachpuff;
+}
+
+.card {
+    background-color: white;
+    margin: 8px;
+    padding: 4px;
+    border-radius: 10px;
 }
 
 .right-side {
@@ -64,7 +73,14 @@
 }
 
 .ann-content {
-    background-color: brown;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.ann-content > .card > p {
+    font-size: small;    
 }
 
 .header {
@@ -75,6 +91,14 @@
 .header-top  {
     background-color: lightgreen;
 }
+
+input {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 8px 24px;
+    width: 400px;
+    margin: 16px;
+  }
 
 .header-bottom {
     background-color: darkgreen;
