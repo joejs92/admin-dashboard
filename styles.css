@@ -19,16 +19,21 @@
 .top {
     background-color: aqua;
     display: grid;
-    justify-content: center;
-    align-items: center;
 }
 
-.bottoms {
+.bottom1, .bottom2 {
     background-color: blue;
     display: grid;
     justify-content: center;
-    align-items: center;
     color: white;
+}
+
+.bottom1{
+    align-items: end;
+}
+
+.bottom2{
+    align-items: baseline;
 }
     
 .content {
@@ -102,4 +107,8 @@ input {
 
 .header-bottom {
     background-color: darkgreen;
+}
+
+ul {
+    list-style-type: none;
 }
