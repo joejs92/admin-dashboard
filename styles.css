@@ -40,6 +40,7 @@
     display: grid;
     grid-row: 2 / 6;
     grid-template-columns: 3fr 1fr;
+    background-color: rgb(223, 237, 241);
 }
 
 .projects {
@@ -48,7 +49,6 @@
 }
 
 .your-projects {
-    background-color: lightcoral;
     display: grid;  
     align-items: center;
 }
@@ -56,14 +56,33 @@
 .project-content {
     display: grid; 
     grid-template-columns: 1fr 1fr;
-    background-color: peachpuff;
 }
 
 .card {
+    display: grid;
+    grid-template-columns: 1fr 50fr;
     background-color: white;
     margin: 8px;
     padding: 4px;
     border-radius: 10px;
+}
+
+.card1 {
+    background-color: white;
+    margin: 8px;
+    padding: 4px;;
+    border-radius: 10px;
+}
+
+.card-left {
+    background-color: gold;
+    margin: 0;
+    padding: 0;
+}
+.card-right {
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .right-side {
@@ -72,7 +91,6 @@
 }
 
 .announcements {
-    background-color: lightcoral;
     display: grid;  
     align-items: center;
 }
@@ -93,6 +111,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     padding: 4px;
     border-radius: 10px;
+    background-color: white;
 }
 
 .trending-content {
@@ -151,7 +170,7 @@
 }
 
 input {
-    background-color: lightgray;
+    background-color: rgb(223, 237, 241);
     border: 1px solid #ddd;
     border-radius: 16px;
     padding: 8px 24px;
@@ -216,4 +235,20 @@ button {
     background: blue;
     padding:8px;
     justify-self: center;
+  }
+
+  .your-projects, .announcements {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 4px;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .title1 {
+    font-size: 16px;
+    font-weight: bold;
   }
